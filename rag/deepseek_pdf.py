@@ -13,9 +13,8 @@ from langchain_openai import ChatOpenAI
 
 # 全局中文输出支持
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-from env_utils import DEEPSEEK_API_KEY
+
 # ================= 配置区域 =================
-# DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY") or "sk-0749e71a874c480f93f79cd691563bf2"
 from env_utils import DEEPSEEK_API_KEY
 DEEPSEEK_BASE_URL = "https://api.deepseek.com"
 
