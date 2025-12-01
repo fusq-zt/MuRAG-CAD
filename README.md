@@ -127,6 +127,7 @@ http://localhost:8501
 
 <img width="2945" height="704" alt="image" src="https://github.com/user-attachments/assets/0b4251d7-b31b-4ce6-bf28-c7f06918f26c" />
 
+等待大概半分钟（会有进度条提示当前进程）
 
 <img width="2917" height="1384" alt="image" src="https://github.com/user-attachments/assets/f9539202-1675-4fd5-810f-6c7641446f6e" />
 <img width="2422" height="982" alt="image" src="https://github.com/user-attachments/assets/26ebd9c6-5931-41e1-9955-b5dcc6a6bd24" />
