@@ -1,0 +1,4 @@
+,benign,malignant,normal
+benign,41,2,1
+malignant,1,19,1
+normal,0,0,13

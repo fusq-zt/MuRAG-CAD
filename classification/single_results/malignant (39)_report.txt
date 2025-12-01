@@ -1,0 +1,9 @@
+=== Breast Ultrasound Classification Report ===
+Image Name: malignant (39).png
+Prediction: malignant
+------------------------------
+Probabilities:
+  benign    : 0.44%
+  malignant : 97.59%
+  normal    : 1.97%
+------------------------------

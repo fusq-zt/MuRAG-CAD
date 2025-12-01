@@ -1,0 +1,9 @@
+=== Breast Ultrasound Classification Report ===
+Image Name: benign (3).png
+Prediction: benign
+------------------------------
+Probabilities:
+  benign    : 88.69%
+  malignant : 4.69%
+  normal    : 6.62%
+------------------------------
