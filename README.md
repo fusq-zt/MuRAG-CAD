@@ -9,45 +9,8 @@ MuRAG-CAD 是一个集成深度学习 CAD（计算机辅助诊断）与大型语
 * **Streamlit Web UI** — 可视化诊断界面
 
 旨在生成完整可解释的医学诊断流程。如果此项目帮助到您，帮我点个⭐
+<img width="1911" height="1773" alt="Untitled diagram-2025-12-01-080858" src="https://github.com/user-attachments/assets/f8a9b10f-59b7-4c75-b8d7-6b9de5ee52ec" />
 
-graph TD
-    %% 定义样式
-    classDef input fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef model fill:#e1f5fe,stroke:#0277bd,stroke-width:2px;
-    classDef rag fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
-    classDef ui fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
-
-    User([👤 用户 / 医生]) -->|上传超声图像| UI[🖥️ Streamlit Web UI]
-    
-    subgraph Controller [中控流程 run_pipeline.sh]
-        UI -->|触发诊断| Script[自动执行脚本]
-    end
-
-    subgraph DeepLearning [深度学习模块]
-        Script -->|图像| CLS[🔍 DenseNet121 分类模型]
-        Script -->|图像| SEG[✂️ Unet++ 分割模型]
-        
-        CLS -->|输出| Res1[良恶性概率 + Grad-CAM 热力图]
-        SEG -->|输出| Res2[病灶 Mask + 几何特征]
-    end
-
-    subgraph RAG_System [RAG 智能报告生成]
-        KB[(📚 临床指南 / 向量库)] -->|检索相关知识| LLM[🤖 DeepSeek LLM]
-        Res1 -->|输入诊断结果| LLM
-        Res2 -->|输入病灶参数| LLM
-        LLM -->|生成| Report[📝 结构化诊断报告]
-    end
-
-    Report -->|展示| UI
-    Res1 -->|可视化| UI
-    Res2 -->|可视化| UI
-
-    %% 应用样式
-    class User input;
-    class CLS,SEG model;
-    class KB,LLM rag;
-    class UI ui;
-    
 ---
 
 ## ✨ 核心功能 (Features)
