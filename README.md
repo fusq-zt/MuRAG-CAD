@@ -50,7 +50,7 @@ MuRAG-CAD 是一个集成深度学习 CAD（计算机辅助诊断）与大型语
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/YourUsername/MuRAG-CAD.git
+git clone https://github.com/Name-is-Hard-To-Think/MuRAG-CAD.git
 cd MuRAG-CAD
 
 # 2. 使用 .yml 文件创建环境
