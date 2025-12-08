@@ -9,7 +9,7 @@ MuRAG-CAD 是一个集成深度学习 CAD（计算机辅助诊断）与大型语
 * **Streamlit Web UI** — 可视化诊断界面
 
 旨在生成完整可解释的医学诊断流程。如果此项目帮助到您，帮我点个⭐
-<img width="1911" height="1773" alt="Untitled diagram-2025-12-01-080858" src="https://github.com/user-attachments/assets/f8a9b10f-59b7-4c75-b8d7-6b9de5ee52ec" />
+<img width="2181" height="1773" alt="Untitled diagram-2025-12-08-083836" src="https://github.com/user-attachments/assets/b21b6c1c-1259-4cbb-83c4-14ce1713e5a9" />
 
 ---
 
@@ -130,7 +130,8 @@ http://localhost:8501
 等待大概半分钟（会有进度条提示当前进程）
 
 <img width="2917" height="1384" alt="image" src="https://github.com/user-attachments/assets/f9539202-1675-4fd5-810f-6c7641446f6e" />
-<img width="2422" height="982" alt="image" src="https://github.com/user-attachments/assets/26ebd9c6-5931-41e1-9955-b5dcc6a6bd24" />
+<img width="1893" height="778" alt="image" src="https://github.com/user-attachments/assets/22d7a4eb-d7d7-4923-bf51-829d0a586fd6" />
+
 
 
 ### ✅ 方式二：命令行脚本运行
@@ -168,10 +169,3 @@ MuRAG-CAD/
 ```
 ---
 
-## 🤝 贡献 (Contributing)
-
-欢迎提交：
-* Bug 反馈
-* 新功能建议
-* Pull Requests
----
